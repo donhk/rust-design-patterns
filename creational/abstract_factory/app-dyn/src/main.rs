@@ -1,8 +1,6 @@
 mod render;
 
-use render::render;
-
-use gui::GuiFactoryDynamic;
+use gui::factories::GuiFactoryDynamic;
 use macos_gui::factory::MacFactory;
 use windows_gui::factory::WindowsFactory;
 
@@ -21,3 +19,4 @@ fn main() {
     button.press();
 
     // Factory object can be passed to a function as a parameter.
+}
