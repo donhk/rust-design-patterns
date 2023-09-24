@@ -3,6 +3,9 @@ resolver = "2"
 members = [
     "structural/adapter",
     "structural/bridge",
+    "structural/composite",
+    "structural/decorator",
+    "structural/facade",
     "creational/factory",
     "creational/builder",
     "creational/prototype/safe",
