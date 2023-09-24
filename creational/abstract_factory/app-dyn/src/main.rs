@@ -1,5 +1,6 @@
 mod render;
 
+use crate::render::render;
 use gui::factories::GuiFactoryDynamic;
 use macos_gui::factory::MacFactory;
 use windows_gui::factory::WindowsFactory;
@@ -14,9 +15,6 @@ fn main() {
         &MacFactory
     };
 
-    // Factory invocation can be inlined right here.
-    let button = factory.create_button();
-    button.press();
-
+    render(factory);
     // Factory object can be passed to a function as a parameter.
 }
