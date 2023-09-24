@@ -1,4 +1,4 @@
-use gui::checkbox::api::Checkbox;
+use gui::checkbox::Checkbox;
 
 pub struct WinCheckBox;
 

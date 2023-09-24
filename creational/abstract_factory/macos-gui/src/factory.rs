@@ -1,6 +1,8 @@
 use crate::button::MacButton;
 use crate::checkbox::MacCheckBox;
-use gui::factories::GuiFactory;
+use gui::button::Button;
+use gui::checkbox::Checkbox;
+use gui::factories::{GuiFactory, GuiFactoryDynamic};
 
 pub struct MacFactory;
 
@@ -13,6 +15,16 @@ impl GuiFactory for MacFactory {
     }
 
     fn create_checkbox(&self) -> Self::C {
+        todo!()
+    }
+}
+
+impl GuiFactoryDynamic for MacFactory {
+    fn create_button(&self) -> Box<dyn Button> {
+        todo!()
+    }
+
+    fn create_checkbox(&self) -> Box<dyn Checkbox> {
         todo!()
     }
 }

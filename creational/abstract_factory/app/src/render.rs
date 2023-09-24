@@ -1,6 +1,8 @@
 //! The code demonstrates that it doesn't depend on a concrete
 //! factory implementation.
-use gui::factories::gui_factory::GuiFactory;
+use gui::button::Button;
+use gui::checkbox::Checkbox;
+use gui::factories::GuiFactory;
 
 // Renders GUI. Factory object must be passed as a parameter to such the
 // generic function with factory invocation to utilize static dispatch.

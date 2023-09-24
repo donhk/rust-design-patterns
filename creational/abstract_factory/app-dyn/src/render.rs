@@ -1,6 +1,6 @@
 //! The code demonstrates that it doesn't depend on a concrete
 //! factory implementation.
-use gui::factories::gui_factory_dyn::GuiFactoryDynamic;
+use gui::factories::GuiFactoryDynamic;
 
 /// Renders GUI.
 pub fn render(factory: &dyn GuiFactoryDynamic) {

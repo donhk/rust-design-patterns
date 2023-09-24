@@ -1,4 +1,4 @@
-use gui::button::api::Button;
+use gui::button::Button;
 
 pub struct WinButton;
 
