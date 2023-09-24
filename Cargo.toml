@@ -3,6 +3,9 @@ resolver = "2"
 members = [
     "creational/factory",
     "creational/builder",
+    "creational/prototype/safe",
+    "creational/prototype/lazy",
+    "creational/prototype/mutex",
     "creational/abstract_factory/gui",          # lib
     "creational/abstract_factory/macos-gui",    # lib
     "creational/abstract_factory/windows-gui",  # lib
