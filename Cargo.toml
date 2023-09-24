@@ -1,8 +1,10 @@
-[package]
-name = "rust-design-patterns"
-version = "0.1.0"
-edition = "2021"
-
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
-[dependencies]
+[workspace]
+resolver = "2"
+members = [
+    "creational/factory",
+    "creational/abstract_factory/gui",          # lib
+    "creational/abstract_factory/macos-gui",    # lib
+    "creational/abstract_factory/windows-gui",  # lib
+    "creational/abstract_factory/app",          # bin
+    "creational/abstract_factory/app-dyn",      # bin
+]
