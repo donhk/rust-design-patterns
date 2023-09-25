@@ -2,6 +2,7 @@
 resolver = "2"
 members = [
     "behavioral/chain_of_responsability",
+    "behavioral/command",
     "structural/adapter",
     "structural/bridge",
     "structural/composite",
