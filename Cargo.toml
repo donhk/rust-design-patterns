@@ -7,6 +7,7 @@ members = [
     "structural/decorator",
     "structural/facade",
     "structural/proxy",
+    "structural/flyweight",
     "creational/factory",
     "creational/builder",
     "creational/prototype/safe",
