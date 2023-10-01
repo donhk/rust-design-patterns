@@ -9,6 +9,7 @@ members = [
     "behavioral/iterator/custom",
     "behavioral/mediator/dynamic",
     "behavioral/mediator/static_mediator",
+    "behavioral/observer",
     "structural/adapter",
     "structural/bridge",
     "structural/composite",
