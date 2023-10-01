@@ -7,6 +7,7 @@ members = [
     "behavioral/command/fn_trait_objects",
     "behavioral/iterator/standard",
     "behavioral/iterator/custom",
+    "behavioral/mediator/dynamic",
     "structural/adapter",
     "structural/bridge",
     "structural/composite",
